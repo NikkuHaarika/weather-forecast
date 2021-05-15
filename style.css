@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
         
     display: grid;
     grid-template-columns: 50% 50%;
@@ -58,6 +58,67 @@
   #tt{
       margin-left: 20%;
       margin-top: 20%;
+  } */
+
+  body{
+      background-color:  rgb(94, 55, 131);
+      display: flex;
+      justify-content: center;
+      height: 100vh;
   }
+
+  .container{
+    
+    display :flex;
+  flex-direction:column;
+    padding:50px;
+    border-radius:25px;
+    align-self:center;
+  }
+
+  .location{
+   color:white;
+   font-size: 20px;
+   /* padding: 20px; */
+   margin: 20px;
+   text-align: center;
+  }
+
+  #temp{
+      color:white;
+      font-size: 50px;
+      padding: 20px;
+      text-shadow:  black;
+      text-align: center;
+  }
+
+  #weather{
+    color:white;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  #hi-low{
+    color:white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  button{
+      border-radius: 25px;
+  }
+
+  #place{
+    border-radius:20px 0 20px 0;  
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(180, 130, 228);
+  }
+
+
      
     
